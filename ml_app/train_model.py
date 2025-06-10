@@ -42,3 +42,10 @@ comparison_df.to_csv("model_comparison.csv", index=False)
 # Finalize and save best model
 final_model = finalize_model(best_model)
 save_model(final_model, "model")
+
+
+
+
+#cd "C:\Users\kawav\OneDrive\Área de Trabalho\dk-main\dk-main\ml_app"
+#python train_model.py
+#streamlit run app.py
